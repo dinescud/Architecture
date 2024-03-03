@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Arhitectura si stiluri arhitecturale</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="stylegalerie.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif, "white"; background-color: black;}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">MENIU</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Stiluri">STILURI ARHITECTURALE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="clasic.html" class="w3-bar-item w3-button">Arhitectura clasica</a>
+        <a href="gotic.html" class="w3-bar-item w3-button">Arhitectura gotica</a>
+        <a href="renascentist.html" class="w3-bar-item w3-button">Arhitectura renascentista</a>
+        <a href="modernist.html" class="w3-bar-item w3-button">Arhitectura modenista</a>
+        <a href="baroc.html" class="w3-bar-item w3-button">Arhitectura baroc</a>
+      </div>
+    </div>
+    <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="Arhitecti">ARHITECTI CELEBRII <i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="sullivan.html" class="w3-bar-item w3-button">Louis Sullivan</a>
+          <a href="foster.html" class="w3-bar-item w3-button">Norman Foster</a>
+          <a href="hadid.html" class="w3-bar-item w3-button">Zaha Hadid</a>
+          <a href="gaudi.html" class="w3-bar-item w3-button">Antoni Gaudi</a>
+          <a href="piano.html" class="w3-bar-item w3-button">Renzo Piano</a>
+          <a href="corbusier.html" class="w3-bar-item w3-button">Le Corbusier</a>
+        </div>
+    </div>    
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Consacrat">CLADIRI CONSACRATE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="beijing.html" class="w3-bar-item w3-button">Galaxy Soho</a>
+        <a href="india.html" class="w3-bar-item w3-button">Taj Mahal</a>
+        <a href="roma.html" class="w3-bar-item w3-button">Panteon</a>
+      </div>
+    </div>
+    <a href="galerie.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GALERIE FOTO</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+  
+<!-- Galerie -->
+<br>
+<br>
+  <nav>
+    <div class="container">
+      <div class="grid">
+        <div class="column-xs-12 column-md-10">
+          <div id="highlight"><h1><b>Galerie foto</b></h1></div>
+        </div>
+          <div class="column-xs-12 column-md-2"></div>
+      </div>
+    </div>
+  </nav>
+<section class="gallery">
+<div class="container">
+<div class="grid">
+  <div class="column-xs-12 column-md-4">
+    <figure class="img-container">
+      <img src="ESB1.jpg" />
+      <figcaption class="img-content">
+        <h2 class="title">Empire State Building</h2>
+        <h3 class="category">New York, Statele Unite ale Americii</h3>
+      </figcaption>
+      <span class="img-content-hover">
+        <h2 class="title">Empire State Building</h2>
+        <h3 class="category">New York, Statele Unite ale Americii</h3>
+      </span>
+    </figure>
+  </div>
+
+  <div class="column-xs-12 column-md-4">
+    <figure class="img-container">
+      <img src="TM1.jpg" />
+      <figcaption class="img-content">
+        <h2 class="title">Taj Mahal</h2>
+        <h3 class="category">Agra, India</h3>
+      </figcaption>
+      <span class="img-content-hover">
+        <h2 class="title">Taj Mahal</h2>
+        <h3 class="category">Agra, India</h3>
+      </span>
+    </figure>
+  </div>
+
+  <div class="column-xs-12 column-md-4">
+    <figure class="img-container">
+      <img src="TE1.jpg" />
+      <figcaption class="img-content">
+        <h2 class="title">Turnul Eiffel</h2>
+        <h3 class="category">Paris, Franta</h3>
+      </figcaption>
+      <span class="img-content-hover">
+        <h2 class="title">Turnul Eiffel</h2>
+        <h3 class="category">Paris, Franta</h3>
+      </span>
+    </figure>
+  </div>
+
+  <div class="column-xs-12 column-md-6">
+    <figure class="img-container">
+      <img src="SD1.jpg" />
+      <figcaption class="img-content">
+        <h2 class="title">Domul din Viena</h2>
+        <h3 class="category">Viena, Austria</h3>
+      </figcaption>
+      <span class="img-content-hover">
+        <h2 class="title">Domul din Viena</h2>
+        <h3 class="category">Viena, Austria</h3>
+      </span>
+    </figure>
+  </div>
+  <div class="column-xs-12 column-md-6">
+    <figure class="img-container">
+      <img src="ND1.jpg">
+      <figcaption class="img-content">
+        <h2 class="title">Notre Dame</h2>
+        <h3 class="category">Paris, Franta</h3>
+      </figcaption>
+      <span class="img-content-hover">
+        <h2 class="title">Notre Dame</h2>
+        <h3 class="category">Paris, Franta</h3>
+      </span>
+    </figure>
+  </div>
+  <div class="column-xs-12">
+    <figure class="img-container">
+      <img src="GB1.jpg" />
+      <figcaption class="img-content">
+        <h2 class="title">Gardens by the Bay</h2>
+        <h3 class="category">Singapore, Singapore</h3>
+      </figcaption>
+      <span class="img-content-hover">
+        <h2 class="title">Gardens by the Bay</h2>
+        <h3 class="category">Singapore, Singapore</h3>
+      </span>
+    </figure>
+  </div>
+
+  <div class="column-xs-12 column-md-6">
+    <figure class="img-container">
+      <img src="CSB1.jpg" />
+      <figcaption class="img-content">
+        <h2 class="title">Catedrala St. Basil</h2>
+        <h3 class="category">Moscova, Rusia</h3>
+      </figcaption>
+      <span class="img-content-hover">
+        <h2 class="title">Catedrala St. Basil</h2>
+        <h3 class="category">Moscova, Rusia</h3>
+      </span>
+    </figure>
+  </div>
+
+  <div class="column-xs-12 column-md-6">
+    <figure class="img-container">
+      <img src="C1.jpg">
+      <figcaption class="img-content">
+        <h2 class="title">Colosseum</h2>
+        <h3 class="category">Roma, Italia</h3>
+      </figcaption>
+      <span class="img-content-hover">
+        <h2 class="title">Colosseum</h2>
+        <h3 class="category">Roma, Italia</h3>
+      </span>
+    </figure>
+  </div>
+  
+  <div class="column-xs-12 column-md-4">
+    <figure class="img-container">
+      <img src="TP1.jpg" />
+      <figcaption class="img-content">
+        <h2 class="title">Turnul din Pisa</h2>
+        <h3 class="category">Pisa, Italia</h3>
+      </figcaption>
+      <span class="img-content-hover">
+        <h2 class="title">Turnul din Pisa</h2>
+        <h3 class="category">Pisa, Italia</h3>
+      </span>
+    </figure>
+  </div>
+
+  <div class="column-xs-12 column-md-4">
+    <figure class="img-container">
+      <img src="BK1.jpg" />
+      <figcaption class="img-content">
+        <h2 class="title">Burj Khalifa</h2>
+        <h3 class="category">Dubai, Emiratele Arabe Unite</h3>
+      </figcaption>
+      <span class="img-content-hover">
+        <h2 class="title">Burj Khalifa</h2>
+        <h3 class="category">Dubai, Emiratele Arabe Unite</h3>
+      </span>
+    </figure>
+  </div>
+
+  <div class="column-xs-12 column-md-4">
+    <figure class="img-container">
+      <img src="BB1.jpg" />
+      <figcaption class="img-content">
+        <h2 class="title">Big Ben</h2>
+        <h3 class="category">Londra, Marea Britanie</h3>
+      </figcaption>
+      <span class="img-content-hover">
+        <h2 class="title">Big Ben</h2>
+        <h3 class="category">Londra, Marea Britanie</h3>
+      </span>
+    </figure>
+  </div>
+
+  <div class="column-xs-12">
+    <figure class="img-container">
+      <img src="FW1.jpg" />
+      <figcaption class="img-content">
+        <h2 class="title">Fallingwater </h2>
+        <h3 class="category">Pennsylvania, Statele Unite ale Americii</h3>
+      </figcaption>
+      <span class="img-content-hover">
+        <h2 class="title">Fallingwater </h2>
+        <h3 class="category">Pennsylvania, Statele Unite ale Americii</h3>
+      </span>
+    </figure>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!--Java-->
+<script>
+const imgContent = document.querySelectorAll(".img-content-hover");
+  
+function showImgContent(e) {
+  for (var i = 0; i < imgContent.length; i++) {
+    x = e.pageX;
+    y = e.pageY;
+    imgContent[i].style.transform = `translate3d(${x}px, ${y}px, 0)`;
+  }
+}
+
+document.addEventListener("mousemove", showImgContent);
+</script>
